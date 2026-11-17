@@ -93,8 +93,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         })
     }
 
-    // Kaydırıcı 0..15 -> 0.5x .. 2.0x
-    private fun currentSpeed(): Float = 0.5f + seekSpeed.progress * 0.1f
+    // Kaydırıcı 0..18 -> 0.2x .. 2.0x
+    private fun currentSpeed(): Float = 0.2f + seekSpeed.progress * 0.1f
 
     private fun updateSpeedLabel() {
         tvSpeed.text = String.format(Locale.US, "Okuma hızı: %.1fx", currentSpeed())
