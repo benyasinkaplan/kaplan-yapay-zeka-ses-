@@ -53,8 +53,8 @@
         android:id="@+id/seekSpeed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="15"
-        android:progress="5" />
+        android:max="18"
+        android:progress="8" />
 
     <LinearLayout
         android:layout_width="match_parent"
